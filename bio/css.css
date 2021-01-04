@@ -1,0 +1,19 @@
+.eka-logo{
+width: 100px;
+height: 100px;
+-webkit-border-radius: 150px;
+border: 1px solid #fff;
+}
+
+/* Sosyal */
+.sosyal {
+    width:100%;
+    position:relative;
+    float:left;
+}
+
+#sosyalacilirmenu{
+	  display: none;
+	}
+#sosyalmenu { display:none;	}
+#sosyalacilirmenu:checked + #sosyalmenu {display:block;}
