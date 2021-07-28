@@ -34,6 +34,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - amp-jekyll
 
 # Exclude from processing.
 # The following items will not be processed, by default.
