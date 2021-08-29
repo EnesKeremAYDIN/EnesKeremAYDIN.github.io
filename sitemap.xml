@@ -1,10 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <url>
 <loc>https://eneskeremaydin.com.tr/</loc>
 <loc>https://eneskeremaydin.com.tr/sitemap.xml</loc>
 <loc>https://eneskeremaydin.com.tr/robots.txt</loc>
+<loc>https://eneskeremaydin.com.tr/404.html</loc>
+<loc>https://eneskeremaydin.com.tr/CNAME</loc>
 <loc>https://eneskeremaydin.com.tr/index.html</loc>
 <loc>https://eneskeremaydin.com.tr/english.html</loc>
-<loc>https://eneskeremaydin.com.tr/CNAME</loc>
+<loc>https://eneskeremaydin.com.tr/aydinlatma_metni.html</loc>
+<loc>https://eneskeremaydin.com.tr/gizlilik_politikasi.html</loc>
 <loc>https://eneskeremaydin.com.tr/veri/görsel/logo_16x16.ico</loc>
 <loc>https://eneskeremaydin.com.tr/veri/görsel/logo_128x128.ico</loc>
+<loc>https://eneskeremaydin.com.tr/veri/görsel/qrcode.png</loc>
 </url>
