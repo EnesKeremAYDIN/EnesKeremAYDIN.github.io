@@ -1,0 +1,48 @@
+body {
+  height: 100%;
+  font: normal 24px/1.4 PlusJakartaSans, system-ui, sans-serif;
+  margin: 0;
+  display: flex;
+  color: hsl(140, 7%, 80%);
+  background-color: #121212;
+}
+
+main {
+  margin: auto;
+  padding: 30px;
+}
+
+main h1 {
+  font-size: 80px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1;
+  color: hsl(140, 100%, 45%);
+}
+
+main h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 1;
+  line-height: 1;
+  color: hsl(140, 100%, 45%);
+}
+
+main p {
+  margin: 0;
+  margin-top: 30px;
+}
+
+.link + .link {
+  margin-top: 10px;
+}
+
+.link svg {
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+
+a {
+  color: hsl(140, 50%, 55%);
+  text-decoration-thickness: from-font;
+}
