@@ -1,48 +1,47 @@
+/* Add your custom CSS styles here */
 body {
-  height: 100%;
-  font: normal 24px/1.4 PlusJakartaSans, system-ui, sans-serif;
-  margin: 0;
-  display: flex;
-  color: hsl(140, 7%, 80%);
-  background-color: #121212;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
 main {
-  margin: auto;
-  padding: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-main h1 {
-  font-size: 80px;
-  font-weight: 400;
-  margin: 0;
-  line-height: 1;
-  color: hsl(140, 100%, 45%);
+h1 {
+    color: #333;
 }
 
-main h1 {
-  font-size: 25px;
-  font-weight: 400;
-  margin: 0;
-  line-height: 1;
-  color: hsl(140, 100%, 45%);
+p {
+    color: #555;
 }
 
-main p {
-  margin: 0;
-  margin-top: 30px;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.link + .link {
-  margin-top: 10px;
-}
-
-.link svg {
-  vertical-align: bottom;
-  margin-right: 5px;
+li {
+    margin: 10px 0;
 }
 
 a {
-  color: hsl(140, 50%, 55%);
-  text-decoration-thickness: from-font;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.fa-icon {
+    margin-right: 5px;
 }
