@@ -51,12 +51,8 @@ a:hover {
 
 .container {
     display: flex;
-    justify-content: space-between;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
     flex-wrap: wrap;
-    justify-content:
+    justify-content: center;
 }
 
 .contact, .projects {
