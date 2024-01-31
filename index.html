@@ -1,296 +1,452 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enes Kerem AYDIN</title>
-    <script src="https://kit.fontawesome.com/f57abe509f.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="veri/görsel/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="eneskeremaydin.com.tr/veri/görsel/logo_16x16.ico" type="image/x-icon">
-    <meta name="description" content="Enes Kerem AYDIN | Kişisel web sitesi.">
-    <meta name="author" content="Enes Kerem AYDIN">
-    <meta http-equiv="Content-Language" content="en">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-M55TYYXE3Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-M55TYYXE3Y');
-</script>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Enes Kerem AYDIN</title>
+      <script src="https://kit.fontawesome.com/f57abe509f.js" crossorigin="anonymous"></script>
+      <link rel="shortcut icon" href="veri/görsel/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="eneskeremaydin.com.tr/veri/görsel/logo_16x16.ico" type="image/x-icon">
+      <meta name="description" content="Enes Kerem AYDIN | Kişisel web sitesi.">
+      <meta name="author" content="Enes Kerem AYDIN">
+      <meta http-equiv="Content-Language" content="en">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-M55TYYXE3Y"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         
+         gtag('config', 'G-M55TYYXE3Y');
+      </script>
 <style>
     body {
-    background-color: #141414;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-main {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
-    margin: 50px auto 0;
-}
-
-header {
-    margin-top: 50px;
-}
-
-h1 {
-    color: #FFFFFF;
-}
-
-p {
-    color: #BBBBBB;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin: 10px 0;
-}
-
-a {
-    text-decoration: none;
-    color: #007BFF;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #0056b3;
-}
-
-.fa-icon {
-    margin-right: 5px;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.contact,
-.projects {
-    flex: 1;
-    margin: 10px;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    text-align: left;
-}
-
-.contact h2,
-.projects h2,
-.repos h2 {
-    color: #333;
-}
-
-.project {
-    margin-bottom: 20px;
-}
-
-.project h3 {
-    color: #333;
-}
-
-.project p {
-    color: #555;
-}
-
-@media (max-width: 768px) {
-}
+        background-color: #141414;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        color: #000000;
+    }
+    
+    main {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        max-width: 600px;
+        margin: 50px auto 0;
+    }
+    
+    header {
+        margin-top: 50px;
+    }
+    
+    h1 {
+        color: #FFFFFF;
+    }
+    
+    p {
+        color: #666666;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    li {
+        margin: 10px 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #007BFF;
+        transition: color 0.3s ease;
+    }
+    
+    a:hover {
+        color: #0056b3;
+    }
+    
+    .fa-icon {
+        margin-right: 5px;
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .container-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .contact,
+    .projects,
+    .packages,
+    .repos {
+        flex: 1;
+        margin: 10px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    
+    thead {
+        background-color: #363636;
+        color: white;
+    }
+    
+    thead th {
+        padding: 10px;
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    tbody tr:hover {
+        background-color: #ddd;
+    }
+    
+    tbody td {
+        padding: 10px;
+    }
+    
+    tfoot {
+        background-color: #007BFF;
+        color: white;
+    }
+    
+    tfoot td {
+        padding: 10px;
+    }
+    
+    @media (max-width: 768px) {
+    }
 </style>
-</head>
-<body>
-    <header>
-        <h1><strong>Enes Kerem "EKA" AYDIN</strong></h1>
-        <p><strong>Full-stack developer, open-sourcerer. NodeJS 💜</strong></p>
-    </header>
-    <div class="container">
-        <section class="contact">
+
+   </head>
+   <body>
+      <header>
+         <h1><strong>Enes Kerem "EKA" AYDIN</strong></h1>
+         <p><strong>Full-stack developer, open-sourcerer. NodeJS 💜</strong></p>
+      </header>
+      <div class="container">
+         <section class="contact">
             <h2>Contact & Social</h2>
             <hr>
             <ul>
-                <!-- Mail -->
-                <li>
-                    <a href="mailto:contact@eneskeremaydin.com.tr">
-                        <i class="fa-solid fa-envelope"></i> contact@eneskeremaydin.com.tr
-                    </a>
-                </li>
-                <!-- GitHub -->
-                <li>
-                    <a href="https://github.com/EnesKeremAYDIN">
-                        <i class="fa-brands fa-github"></i> @EnesKeremAYDIN
-                    </a>
-                </li>
-                <!-- NPM -->
-                <li>
-                    <a href="https://www.npmjs.com/~ekaloji">
-                        <i class="fa-brands fa-npm"></i> ~EKAloji
-                    </a>
-                </li>
-                <!-- LinkedIn -->
-                <li>
-                    <a href="https://linkedin.com/in/EnesKeremAYDIN">
-                        <i class="fa-brands fa-linkedin"></i> in/EnesKeremAYDIN
-                    </a>
-                </li>
-                <!-- Medium -->
-                <li>
-                    <a href="https://eneskeremaydin.medium.com/">
-                        <i class="fa-brands fa-medium"></i> Enes Kerem AYDIN
-                    </a>
-                </li>
-                <!-- Twitter -->
-                <li>
-                    <a href="https://twitter.com/EnesKeremAYDIN">
-                        <i class="fa-brands fa-twitter"></i> @EnesKeremAYDIN (Personal)
-                    </a>
-                </li>
-                <!-- Twitter 2 -->
-                <li>
-                    <a href="https://twitter.com/AirDropEKA">
-                        <i class="fa-brands fa-twitter"></i> @AirDropEKA (Crypto)
-                    </a>
-                </li>
-                <!-- Discord -->
-                <li>
-                    <a href="https://discord.com/users/817779288296128512">
-                        <i class="fa-brands fa-discord"></i> EKAloji
-                    </a>
-                </li>
-                <!-- Telegram -->
-                <li>
-                    <a href="https://t.me/EKAloji">
-                        <i class="fa-brands fa-telegram"></i> EKAloji
-                    </a>
-                </li>
-                <!-- Skype -->
-                <li>
-                    <a href="https://join.skype.com/invite/LDDygum0GYsq">
-                        <i class="fa-brands fa-skype"></i> live:eneskeremaydin2005
-                    </a>
-                </li>
-                <!-- WeChat -->
-                <li>
-                    <a href="https://u.wechat.com/kOAQ49EUErS_ueEd_W-ao1U">
-                        <i class="fa-brands fa-weixin"></i> EnesKeremAYDIN
-                    </a>
-                </li>
-                <!-- ICQ -->
-                <li>
-                    <a href="https://icq.im/EnesKeremAYDIN">
-                        <i class="fa-brands fa-icq"></i> @EnesKeremAYDIN
-                    </a>
-                </li>
-                <!-- YouTube -->
-                <li>
-                    <a href="https://youtube.com/@eneskeremaydin">
-                        <i class="fa-brands fa-youtube"></i> Enes Kerem AYDIN
-                    </a>
-                </li>
-                <!-- Instagram -->
-                <li>
-                    <a href="https://instagram.com/aydin.eneskerem">
-                        <i class="fa-brands fa-instagram"></i> @aydin.eneskerem
-                    </a>
-                </li>
-                <!-- Reddit -->
-                <li>
-                    <a href="https://reddit.com/u/EKAlojix">
-                        <i class="fa-brands fa-reddit"></i> u/EKAlojix
-                    </a>
-                </li>
-                <!-- Steam -->
-                <li>
-                    <a href="https://steamcommunity.com/id/EKAloji">
-                        <i class="fa-brands fa-steam"></i> EKAloji
-                    </a>
-                </li>
+               <!-- Mail -->
+               <li>
+                  <a href="mailto:contact@eneskeremaydin.com.tr">
+                  <i class="fa-solid fa-envelope"></i> contact@eneskeremaydin.com.tr
+                  </a>
+               </li>
+               <!-- GitHub -->
+               <li>
+                  <a href="https://github.com/EnesKeremAYDIN">
+                  <i class="fa-brands fa-github"></i> @EnesKeremAYDIN
+                  </a>
+               </li>
+               <!-- NPM -->
+               <li>
+                  <a href="https://www.npmjs.com/~ekaloji">
+                  <i class="fa-brands fa-npm"></i> ~EKAloji
+                  </a>
+               </li>
+               <!-- LinkedIn -->
+               <li>
+                  <a href="https://linkedin.com/in/EnesKeremAYDIN">
+                  <i class="fa-brands fa-linkedin"></i> in/EnesKeremAYDIN
+                  </a>
+               </li>
+               <!-- Medium -->
+               <li>
+                  <a href="https://eneskeremaydin.medium.com/">
+                  <i class="fa-brands fa-medium"></i> Enes Kerem AYDIN
+                  </a>
+               </li>
+               <!-- Twitter -->
+               <li>
+                  <a href="https://twitter.com/EnesKeremAYDIN">
+                  <i class="fa-brands fa-twitter"></i> @EnesKeremAYDIN (Personal)
+                  </a>
+               </li>
+               <!-- Twitter 2 -->
+               <li>
+                  <a href="https://twitter.com/AirDropEKA">
+                  <i class="fa-brands fa-twitter"></i> @AirDropEKA (Crypto)
+                  </a>
+               </li>
+               <!-- Discord -->
+               <li>
+                  <a href="https://discord.com/users/817779288296128512">
+                  <i class="fa-brands fa-discord"></i> EKAloji
+                  </a>
+               </li>
+               <!-- Telegram -->
+               <li>
+                  <a href="https://t.me/EKAloji">
+                  <i class="fa-brands fa-telegram"></i> EKAloji
+                  </a>
+               </li>
+               <!-- Skype -->
+               <li>
+                  <a href="https://join.skype.com/invite/LDDygum0GYsq">
+                  <i class="fa-brands fa-skype"></i> live:eneskeremaydin2005
+                  </a>
+               </li>
+               <!-- WeChat -->
+               <li>
+                  <a href="https://u.wechat.com/kOAQ49EUErS_ueEd_W-ao1U">
+                  <i class="fa-brands fa-weixin"></i> EnesKeremAYDIN
+                  </a>
+               </li>
+               <!-- ICQ -->
+               <li>
+                  <a href="https://icq.im/EnesKeremAYDIN">
+                  <i class="fa-brands fa-icq"></i> @EnesKeremAYDIN
+                  </a>
+               </li>
+               <!-- YouTube -->
+               <li>
+                  <a href="https://youtube.com/@eneskeremaydin">
+                  <i class="fa-brands fa-youtube"></i> Enes Kerem AYDIN
+                  </a>
+               </li>
+               <!-- Instagram -->
+               <li>
+                  <a href="https://instagram.com/aydin.eneskerem">
+                  <i class="fa-brands fa-instagram"></i> @aydin.eneskerem
+                  </a>
+               </li>
+               <!-- Reddit -->
+               <li>
+                  <a href="https://reddit.com/u/EKAlojix">
+                  <i class="fa-brands fa-reddit"></i> u/EKAlojix
+                  </a>
+               </li>
+               <!-- Steam -->
+               <li>
+                  <a href="https://steamcommunity.com/id/EKAloji">
+                  <i class="fa-brands fa-steam"></i> EKAloji
+                  </a>
+               </li>
             </ul>
             <h2>Groups & Communities</h2>
             <hr>
             <ul>
-                <!-- Personal Discord -->
-                <li>
-                    <a href="https://discord.gg/fJGtmKbuQB">
-                        <i class="fa-brands fa-discord"></i> EKA
-                    </a>
-                </li>
-                <!-- GitHub -->
-                <li>
-                    <a href="https://github.com/EKAloji">
-                        <i class="fa-brands fa-github"></i> @EKAloji
-                    </a>
-                </li>
-                <!-- Steam -->
-                <li>
-                    <a href="https://steamcommunity.com/groups/EKAloji">
-                        <i class="fa-brands fa-steam"></i> EKAloji
-                    </a>
-                </li>
+               <!-- Personal Discord -->
+               <li>
+                  <a href="https://discord.gg/fJGtmKbuQB">
+                  <i class="fa-brands fa-discord"></i> EKA
+                  </a>
+               </li>
+               <!-- GitHub -->
+               <li>
+                  <a href="https://github.com/EKAloji">
+                  <i class="fa-brands fa-github"></i> @EKAloji
+                  </a>
+               </li>
+               <!-- Steam -->
+               <li>
+                  <a href="https://steamcommunity.com/groups/EKAloji">
+                  <i class="fa-brands fa-steam"></i> EKAloji
+                  </a>
+               </li>
             </ul>
-        </section>
-        <section class="projects">
+         </section>
+         <section class="projects">
             <h2>Projects</h2>
             <hr>
             <div class="project">
-                <h3>Web Site</h3>
-                <p>Personal web site.</p>
-                <p><strong><a href="https://eneskeremaydin.com.tr/">Home</a></strong></p>
+               <h3>Web Site</h3>
+               <p>Personal web site.</p>
+               <p><strong><a href="https://eneskeremaydin.com.tr/">Home</a></strong></p>
             </div>
             <div class="project">
-                <h3>URL Shorter</h3>
-                <p>Personal URL shorter.</p>
-                <p><strong><a href="https://ekas.link/">Home</a></strong></p>
+               <h3>URL Shorter</h3>
+               <p>Personal URL shorter.</p>
+               <p><strong><a href="https://ekas.link/">Home</a></strong></p>
             </div>
             <div class="project">
-                <h3>Atatürk Discord Bot</h3>
-                <p>Discord bot created to commemorate Gazi Mustafa Kemal ATATÜRK.</p>
-                <p><strong><a href="https://discord.com/oauth2/authorize?scope=bot+applications.commands&permissions=0&client_id=719897844085161985">Invite</a></strong> | <strong><a href="https://top.gg/bot/719897844085161985">Top.gg</a></strong></p>
+               <h3>Atatürk Discord Bot</h3>
+               <p>Discord bot created to commemorate Gazi Mustafa Kemal ATATÜRK.</p>
+               <p><strong><a href="https://discord.com/oauth2/authorize?scope=bot+applications.commands&permissions=0&client_id=719897844085161985">Invite</a></strong> | <strong><a href="https://top.gg/bot/719897844085161985">Top.gg</a></strong></p>
             </div>
             <div class="project">
-                <h3>Cryptocurrency Discord Bots</h3>
-                <p>Bitcoin Fear and Greed Index, Bitcoin Halving Coutdown, Bitcoin Dominace Tracker, Stablecoin Dominace Tracker, Price Tracker(s) (41), Gas Fee Tracker(s) (4), Market Cap Tracker(s) (5) Discord bots. (54)</p>
-                <p><strong><a href="https://cryptotrackerbot.com/botList.html">Web Site</a></strong> | <strong><a href="https://top.gg/bot/927613829381259345">Top.gg</a></strong></p>
+               <h3>Cryptocurrency Discord Bots</h3>
+               <p>Bitcoin Fear and Greed Index, Bitcoin Halving Coutdown, Bitcoin Dominace Tracker, Stablecoin Dominace Tracker, Price Tracker(s) (41), Gas Fee Tracker(s) (4), Market Cap Tracker(s) (5) Discord bots. (54)</p>
+               <p><strong><a href="https://cryptotrackerbot.com/botList.html">Web Site</a></strong> | <strong><a href="https://top.gg/bot/927613829381259345">Top.gg</a></strong></p>
             </div>
-        </section>
-    </div>
-    <!--<div class="container">
-        <section class="projects">
-            <h2>Packages<h2>
+         </section>
+      </div>
+      <div class="container-2">
+         <section class="packages">
+            <h2 id="-my-packages">Packages</h2>
             <hr>
-            <div class="project">
-                <h3>Atatürk Sözü NPM Package</h3>
-                <p>NPM package to output random Atatürk quotes.</p>
-                <p><strong><a href="https://www.npmjs.com/package/ataturk-sozu">Page</a></strong></p>
-            </div>
-            <div class="project">
-                <h3>Rastgele Kelime NPM Package</h3>
-                <p>NPM package to output random Turkish words.</p>
-                <p><strong><a href="https://www.npmjs.com/package/rastgelekelime">Page</a></strong></p>
-            </div>
-        </section>
-        <section class="projects">
-            <h2>Github Repos</h2>
+            <table>
+               <thead>
+                  <tr>
+                     <th>Name</th>
+                     <th>Description</th>
+                     <th>Manager</th>
+                     <th>Coding Language</th>
+                     <th>Content Language</th>
+                     <th>GitHub</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td><a href="https://www.npmjs.com/package/rastgelekelime">rastgelekelime</a></td>
+                     <td>Make up one or more Turkish words.</td>
+                     <td>NPM</td>
+                     <td>Node.js</td>
+                     <td>TR</td>
+                     <td><a href="https://github.com/EnesKeremAYDIN/npm-rastgelekelime">GitHub</a></td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://www.npmjs.com/package/ataturk-sozu">ataturk-sozu</a></td>
+                     <td>Print out one or more Mustafa Kemal Atatürk&#39;s words.</td>
+                     <td>NPM</td>
+                     <td>Node.js</td>
+                     <td>TR</td>
+                     <td><a href="https://github.com/EnesKeremAYDIN/npm-ataturk-sozu">GitHub</a></td>
+                  </tr>
+               </tbody>
+            </table>
+            <h2 id="-repositories">Repositories</h2>
             <hr>
-            <div class="project">
-                <h3>Test</h3>
-                <p>Test.</p>
-                <p><strong><a href="https://github.com/EnesKeremAYDIN/">test 0</a></strong></p>
-            </div>
-        </section>
-    </div>-->
-</body>
+            <table>
+               <thead>
+                  <tr>
+                     <th>Name</th>
+                     <th>Coding Language</th>
+                     <th>Content Language</th>
+                     <th>The language of the notes</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/Ataturk">Atatürk Photo/Video/Gif Archive</a></td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>TR</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/CleanWindows">Clean Windows</a></td>
+                     <td>Batchfile - PowerShell</td>
+                     <td>EN</td>
+                     <td>-</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/GeForgeNowDX11toDX9">NVIDIA GeForge Now DX11 to DX9</a></td>
+                     <td>PowerShell</td>
+                     <td>EN</td>
+                     <td>-</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/vanityOnionV3">Vanity v3 .onion Adress Generator</a></td>
+                     <td>Node.js</td>
+                     <td>EN</td>
+                     <td>EN</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/ResetNetworkSettings">Reset Network Settings (Windows)</a></td>
+                     <td>Batchfile</td>
+                     <td>EN</td>
+                     <td>-</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/mkp224o-on-google-colab">MKP224O on Google Colab</a></td>
+                     <td>Jupyter Notebook</td>
+                     <td>EN</td>
+                     <td>EN</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/steam-hour-boosting">Steam Hour Boosting</a></td>
+                     <td>JavaScript</td>
+                     <td>EN</td>
+                     <td>EN</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/arduino">Arduino</a></td>
+                     <td>C/C++</td>
+                     <td>EN</td>
+                     <td>EN</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/discord.js-v13-empty-bot">Discord.js v13 Empty Bot</a></td>
+                     <td>Node.js</td>
+                     <td>EN</td>
+                     <td>EN</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/discord.js-v12-guild-creator">Discord.js v12 Guild Creator Bot</a></td>
+                     <td>Node.js</td>
+                     <td>EN</td>
+                     <td>EN</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/discord-token-joiner">Discord Token Joiner Bot</a></td>
+                     <td>Node.js</td>
+                     <td>EN</td>
+                     <td>EN</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/python-countdown-video-generator">Countdown Video Generator</a></td>
+                     <td>Python</td>
+                     <td>-</td>
+                     <td>EN</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/minecraft-server-login-bot">Minecraft Server Login Bot</a></td>
+                     <td>Node.JS</td>
+                     <td>EN</td>
+                     <td>TR - EN</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/mit-lisansi-gayriresmi-ceviri">Unofficial translation (EN to TR) of the MIT license</a></td>
+                     <td>-</td>
+                     <td>TR - EN</td>
+                     <td>TR - EN</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/all-rgb-decimal-codes">All RGB Decimal Codes</a></td>
+                     <td>Python - Document</td>
+                     <td>-</td>
+                     <td>EN</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://EnesKeremAYDIN.github.io/sozlukkaristir.com">Sözlük Karıştır</a></td>
+                     <td>HTML/CSS/JavaScript</td>
+                     <td>TR</td>
+                     <td>TR</td>
+                  </tr>
+                  <tr>
+                     <td><a href="https://github.com/EnesKeremAYDIN/height-calculator-tool">Height Calculator Tool</a></td>
+                     <td>-</td>
+                     <td>EN</td>
+                     <td>EN</td>
+                  </tr>
+               </tbody>
+            </table>
+         </section>
+      </div>
+   </body>
 </html>
