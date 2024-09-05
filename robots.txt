@@ -3,4 +3,3 @@ Allow: /
 Disallow: /discord-gazi-mustafa-kemal-ataturk-bot/
 Disallow: /discord-tracker-bots/
 Disallow: /library/
-Disallow: /pixel-game/
