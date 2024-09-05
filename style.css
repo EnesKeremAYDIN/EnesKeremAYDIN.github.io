@@ -1,0 +1,199 @@
+body {
+    background-color: #141414;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+header {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+p {
+    color: #666666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.fa-icon {
+    margin-right: 5px;
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-2 {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact,
+.communities,
+.skills,
+.packages,
+.repos {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #363636;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+tbody td {
+    padding: 10px;
+}
+
+tfoot {
+    background-color: #007BFF;
+    color: white;
+}
+
+tfoot td {
+    padding: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    text-align: left;
+    transition: box-shadow 0.3s ease-in-out;
+    box-sizing: border-box;
+    flex: 1 1 calc(30% - 20px);
+    max-width: calc(30% - 20px);
+}
+
+.project-box:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.atatürk-imzası {
+    -webkit-filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
+    filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
+}
+
+@media (max-width: 768px) {
+    main {
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .container {
+        display: block;
+        margin: 10px;
+    }
+
+    .container-2 {
+        display: block;
+        margin: 10px;
+    }
+
+    .contact,
+    .communities,
+    .skills,
+    .packages,
+    .repos {
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    .project-box {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    th, td {
+        white-space: nowrap;
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
